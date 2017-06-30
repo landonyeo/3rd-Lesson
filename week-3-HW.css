@@ -1,0 +1,198 @@
+body {
+	font-family: 'lato';
+	margin: 0;
+	background-color: lightgrey;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 1060px;
+}
+
+
+nav {
+	background-color: #2b2b2b;
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+
+.logo {
+	float:left;
+	padding-top:5px;
+}
+
+.menu {
+	float:left;
+	padding: 5px 30px;
+	text-transform: uppercase;
+}
+
+.menu a {
+	padding: 15px;
+	text-decoration: none;
+	display: inline-block;
+	color: lightgrey;
+}
+
+.menu_search {
+	float: right;
+	padding-top: 20px;
+}
+
+.menu_search img {
+	padding: 0 10px;
+}
+
+a span {
+	color: #de8ae5;
+}
+
+.banner  {
+	margin-top:80px;
+	width:1060px;
+	height:90px;
+	overflow:hidden;
+}
+
+.new {
+	text-transform: uppercase;
+	font-size: 6px;
+	padding-top: 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	color: black;
+	font-size: 10px;
+}
+
+h2 {
+	margin-left: 10px;
+	font-family: 'lato';
+	font-size: 10px;
+
+}
+
+h3{
+	margin: auto;
+	font-size: 14px;
+	text-decoration: none;
+	color: black;
+}
+
+.popular li {
+	/*display: inline;*/
+	/*list-style-type: circle;*/
+}
+
+.whatsnew {
+	float: left;
+}
+
+.whatsnew h1{
+	line-height: 10px;
+}
+
+.latestdeals {
+	float: right;
+}
+
+.latestdeals h1{
+	line-height: 10px;
+}
+
+.nonfeatured {
+	display: grid;
+	grid-template-columns: repeat(5,196px);
+	grid-column-gap:20px;
+	float: left;
+	margin-top:10px;
+}
+
+
+.smallbox {
+	background-color: #e1e1e1;
+	text-decoration: none;
+	color: black;
+}
+
+
+.othergames {
+	display: grid;
+	grid-template-columns: repeat(2,510px);	
+	grid-column-gap:40px;
+	float: left;
+}
+
+
+.bonus_points {
+	display: grid;
+	grid-template-columns: repeat(3,170px);
+	margin-top:10px;
+	text-align: center;
+	background-color: grey;
+}
+
+.bonus_points a {
+	border-right: 1px solid dimgrey;
+	border-left: 1px solid dimgrey;
+	padding: 10px;
+}
+
+.headlines_content {
+	display: grid;
+	grid-template-rows: repeat(11,121px);
+	background-color: #e1e1e1;
+}
+
+.headlines_content a {
+	border-top:1px solid #B3B3BE;
+	border-bottom:1px solid #B3B3BE;
+}
+
+.headlines_content img {
+	float: left;
+}
+
+.headlines_wording {
+	float: left;
+	padding: 10px 10px;
+}
+
+
+h4 {
+	margin: 0;
+	color: black;
+	font-size: 14px;
+}
+
+h5 {
+	margin-top: 12px;
+	color: grey;
+	font-size: 12px;
+}
+
+p {
+	margin-top: 12px;
+	color: black;
+	font-size: 12px;
+}
+
+.popular_contents {
+	display: grid;
+	grid-template-rows:repeat (25,60px);
+	background-color: grey;
+}
+
+.popular_contents ol {
+	padding: 0;
+	margin:0;
+}
+
+
+
+
